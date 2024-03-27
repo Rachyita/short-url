@@ -1,0 +1,23 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "making a custom url shortner service which will take a valid URL & return a shortened URL redirecting the user to previously provided URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rachyita/short-url.git"
+  },
+  "author": "rachyita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rachyita/short-url/issues"
+  },
+  "homepage": "https://github.com/Rachyita/short-url#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3"
+  }
+}
