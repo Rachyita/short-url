@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const urlSchema = mongoose.Schema(
+const urlSchema = new mongoose.Schema(
   {
     shortId: {
       type: String,
@@ -11,7 +11,7 @@ const urlSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    visitHistory: [{ timestamps: { type: Number } }],
+    visitHistory: [{ timestamp: { type: Number } }],
   },
   { timestamps: true }
 );
